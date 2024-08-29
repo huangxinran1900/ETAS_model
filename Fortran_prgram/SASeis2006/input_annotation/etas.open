@@ -1,0 +1,7 @@
+9 2                           subrountine func9   level2
+0 3653.85103009259 5.01       zts (start time)  ztend (end time)  tstart (start ofstudy time)
+3.6 7.2                       Mc (threshold of magnitude)  Mz (largest magnitude in the dataset)
+0.14847E+00 0.49184E+00 0.22342E-02 0.13170E+01 0.10432E+01  mu K0 c alpha p  
+0 3653.85103009259 5.01       zts (start time)  zte (end of study time)  tstart (start of study time)
+3.6 7.2                       Mc (threshold of magnitude)  Mz (largest magnitude in the dataset)
+-0.1225444E+04                negative-log-likelihood
