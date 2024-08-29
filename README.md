@@ -7,110 +7,7 @@ This project involves the application of the Epidemic-Type Aftershock Sequence (
 ## Directory Structure
 
 
-├── data/
-│   ├── complete_dataset/
-│   │   ├── Taiwan_updated.csv
-│   │   ├── taiwan_complete.csv
-│   │   ├── ZMAP_software/
-│   │   │   ├── taiwan_mag3.6.csv
-│   │   │   ├── taiwan_mag1.csv
-│   ├── Hualien_dataset/
-│   │   ├── GDMScatalog.csv
-│   │   ├── ZMAP_software/
-│   │   │   ├── taiwan_data_zmap_2.3.csv
-│   │   │   ├── taiwan_data_zmap.csv
-├── Fortran_prgram/
-│   ├── SASeis2006/
-│   │   ├── FORTsources/
-│   │   │   ├── etas.f
-│   │   │   ├── etasim.f
-│   │   │   ├── retas.f
-│   │   ├── input_annotation/
-│   ├── Section3/
-│   │   ├── multistage_changepoints/
-│   │   │   ├── subperiod_1/
-│   │   │   │   ├── etas.open
-│   │   │   │   ├── work.etas
-│   │   │   │   ├── output_file/
-│   │   │   │       ├── etas.open
-│   │   │   │       ├── work.res
-│   │   │   │       ├── etas.error
-│   │   │   ├── subperiod_2/
-│   │   │   │   ├── etas.open
-│   │   │   │   ├── work.etas
-│   │   │   │   ├── output_file/
-│   │   │   │       ├── etas.open
-│   │   │   │       ├── work.res
-│   │   │   │       ├── etas.error
-│   │   │   ├── subperiod_3/
-│   │   │   │   ├── etas.open
-│   │   │   │   ├── work.etas
-│   │   │   │   ├── output_file/
-│   │   │   │       ├── etas.open
-│   │   │   │       ├── work.res
-│   │   │   │       ├── etas.error
-│   │   ├── single_changepoint/
-│   │   │   ├── subperiod_1/
-│   │   │   │   ├── etas.open
-│   │   │   │   ├── work.etas
-│   │   │   │   ├── output_file/
-│   │   │   │       ├── etas.open
-│   │   │   │       ├── work.res
-│   │   │   │       ├── etas.error
-│   │   │   ├── subperiod_2/
-│   │   │   │   ├── etas.open
-│   │   │   │   ├── work.etas
-│   │   │   │   ├── output_file/
-│   │   │   │       ├── etas.open
-│   │   │   │       ├── work.res
-│   │   │   │       ├── etas.error
-│   │   ├── stationary_ETAS/
-│   │   │   ├── work.etas
-│   │   │   ├── etas.open
-│   │   │   ├── etasim.open
-│   │   │   ├── output_file/
-│   │   │   │   ├── etas.open
-│   │   │   │   ├── work.res
-│   │   │   │   ├── simulation_file.zip
-│   ├── Section4/
-│   │   ├── vary_mu/
-│   │   │   ├── etas.open
-│   │   │   ├── work.etas
-│   │   │   ├── output_file/
-│   │   │   │   ├── mu_values_1day.csv
-│   │   │   │   ├── mu_values_5days.csv
-│   │   │   │   ├── mu_values_10days.csv
-│   │   ├── vary_mu_p/
-│   │   │   ├── etas.open
-│   │   │   ├── work.etas
-│   │   │   ├── output_file/
-│   │   │   │   ├── mu_p_values_1day.csv
-│   │   │   │   ├── mu_p_values_5days.csv
-│   │   │   │   ├── mu_p_values_10days.csv
-│   │   │   │   ├── simulation1_same_mag.zip
-│   │   ├── etas.f
-│   │   ├── etasim.f
-│   │   ├── retas.f
-├── Python/
-│   ├── Section3_changepoints/
-│   │   ├── gfortran.ipynb
-│   │   ├── simulation_lrts.ipynb
-│   │   ├── decision_tree_output.ipynb
-│   ├── Section4_moving_windows/
-│   │   ├── mu_p_ks1_test.ipynb
-│   │   ├── J3_statistics_twosample.ipynb
-├── R/
-│   ├── section2and3plots.R
-│   ├── log_intensity.R
-│   ├── monte_carlo_simulation.R
-│   ├── section4_moving_windows.R
-├── GMT/
-│   ├── tmp.focal
-│   ├── tmp.sh
-│   ├── CN-faults.gmt
-│   ├── output_png/
-│   │   ├── FOCAL.png
-└── README.md
+├── data/ │ ├── complete_dataset/ │ │ ├── Taiwan_updated.csv │ │ ├── taiwan_complete.csv │ │ ├── ZMAP_software/ │ │ │ ├── taiwan_mag3.6.csv │ │ │ ├── taiwan_mag1.csv │ ├── Hualien_dataset/ │ │ ├── GDMScatalog.csv │ │ ├── ZMAP_software/ │ │ │ ├── taiwan_data_zmap_2.3.csv │ │ │ ├── taiwan_data_zmap.csv ├── Fortran_prgram/ │ ├── SASeis2006/ │ │ ├── FORTsources/ │ │ │ ├── etas.f │ │ │ ├── etasim.f │ │ │ ├── retas.f │ │ ├── input_annotation/ │ ├── Section3/ │ │ ├── multistage_changepoints/ │ │ │ ├── subperiod_1/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.etas │ │ │ │ ├── output_file/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.res │ │ │ │ ├── etas.error │ │ │ ├── subperiod_2/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.etas │ │ │ │ ├── output_file/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.res │ │ │ │ ├── etas.error │ │ │ ├── subperiod_3/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.etas │ │ │ │ ├── output_file/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.res │ │ │ │ ├── etas.error │ │ ├── single_changepoint/ │ │ │ ├── subperiod_1/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.etas │ │ │ │ ├── output_file/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.res │ │ │ │ ├── etas.error │ │ │ ├── subperiod_2/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.etas │ │ │ │ ├── output_file/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.res │ │ │ │ ├── etas.error │ │ ├── stationary_ETAS/ │ │ │ ├── work.etas │ │ │ ├── etas.open │ │ │ ├── etasim.open │ │ │ ├── output_file/ │ │ │ │ ├── etas.open │ │ │ │ ├── work.res │ │ │ │ ├── simulation_file.zip │ ├── Section4/ │ │ ├── vary_mu/ │ │ │ ├── etas.open │ │ │ ├── work.etas │ │ │ ├── output_file/ │ │ │ │ ├── mu_values_1day.csv │ │ │ │ ├── mu_values_5days.csv │ │ │ │ ├── mu_values_10days.csv │ │ ├── vary_mu_p/ │ │ │ ├── etas.open │ │ │ ├── work.etas │ │ │ ├── output_file/ │ │ │ │ ├── mu_p_values_1day.csv │ │ │ │ ├── mu_p_values_5days.csv │ │ │ │ ├── mu_p_values_10days.csv │ │ │ │ ├── simulation1_same_mag.zip │ │ ├── etas.f │ │ ├── etasim.f │ │ ├── retas.f ├── Python/ │ ├── Section3_changepoints/ │ │ ├── gfortran.ipynb │ │ ├── simulation_lrts.ipynb │ │ ├── decision_tree_output.ipynb │ ├── Section4_moving_windows/ │ │ ├── mu_p_ks1_test.ipynb │ │ ├── J3_statistics_twosample.ipynb ├── R/ │ ├── section2and3plots.R │ ├── log_intensity.R │ ├── monte_carlo_simulation.R │ ├── section4_moving_windows.R ├── GMT/ │ ├── tmp.focal │ ├── tmp.sh │ ├── CN-faults.gmt │ ├── output_png/ │ │ ├── FOCAL.png └── README.md
 
 ## Data
 
@@ -209,6 +106,8 @@ The GMT (Generic Mapping Tool) for visualizing the spatial distribution of Huali
 
 ## References
 [1] Ogata, Y. (2006). SASeis2006: https://www.ism.ac.jp/~ogata/Ssg/ssg_softwaresE.html.
+
 [2] Wiemer, S. (2001). A software package to analyze seismicity: Zmap. Seismological Research Letters, 72(3):373–382.
+
 [3] GMT. China geospatial data collection. https://github.com/gmt-china/
 china-geospatial-data. Accessed: 2024-08-12.
